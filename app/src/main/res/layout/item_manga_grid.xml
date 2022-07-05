@@ -6,6 +6,7 @@
 	android:layout_width="match_parent"
 	android:layout_height="wrap_content"
 	android:clipChildren="false"
+	android:stateListAnimator="@animator/animator_card"
 	app:cardCornerRadius="12dp">
 
 	<LinearLayout

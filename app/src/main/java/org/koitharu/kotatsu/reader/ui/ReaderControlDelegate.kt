@@ -69,6 +69,9 @@ class ReaderControlDelegate(
 			false
 		}
 		KeyEvent.KEYCODE_SPACE,
+		KeyEvent.KEYCODE_NUMPAD_ENTER,
+		KeyEvent.KEYCODE_BUTTON_SELECT,
+		KeyEvent.KEYCODE_BUTTON_R1,
 		KeyEvent.KEYCODE_PAGE_DOWN,
 		KeyEvent.KEYCODE_SYSTEM_NAVIGATION_DOWN,
 		KeyEvent.KEYCODE_DPAD_DOWN,
@@ -76,6 +79,7 @@ class ReaderControlDelegate(
 			listener.switchPageBy(1)
 			true
 		}
+		KeyEvent.KEYCODE_BUTTON_L1,
 		KeyEvent.KEYCODE_PAGE_UP,
 		KeyEvent.KEYCODE_SYSTEM_NAVIGATION_UP,
 		KeyEvent.KEYCODE_DPAD_UP,
